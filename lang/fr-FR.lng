@@ -5,8 +5,8 @@ IsComplete=0
 
 [UpdateNotifyWindow]
 WindowTitle=Update
-NewVersionAvailableLabel=New version available
-NewVersionAvailableBox={appname} {0} is available! Would you like to download it now?
+NewVersionAvailableLabel=Nouvelle version disponible !
+NewVersionAvailableBox={appname} {0} est disponible !Voulez-vous l'installer maintenant ?
 DownloadBtn=Download
 CloseBtn=Close
 
@@ -19,7 +19,7 @@ LicensesPage=Licences
 
 [LoggerWindow]
 WindowTitle=Logs
-CopyToClipboardBtn=Copy
+CopyToClipboardBtn=Copier
 
 [LicenseAgreementWindow]
 WindowTitle=Contrat de licence
@@ -31,7 +31,7 @@ AnErrorOccurred=Une erreur s'est produite ! Veuillez vérifier les logs.
 TaskOngoing=Une opération est actuellement en cours.{n}Etes-vous sur de vouloir forcer la fermeture de l'application?
 
 [MainWindow]
-SendFeedbackBtn=Send feedback
+SendFeedbackBtn=Faire un retour
 NextPageBtn=Suivant
 BackPageBtn=Retour
 NextPageBtn.Install=Installation
@@ -40,7 +40,7 @@ StatusBar.Idle=En attente
 StatusBar.LoadingDisks=Attente disque...
 StatusBar.MountingISO=Montage de l'image ISO...
 StatusBar.UnmountingISO=Démontage de l'image ISO...
-StatusBar.VerifyingImage=Verifying the image...
+StatusBar.VerifyingImage=Vérification de l'image...
 StatusBar.ExtractingDrvToTemp=Extraction des drivers dans le dossier temporaire...
 StatusBar.DownloadingReqFiles=Téléchargement des fichiers requis...
 StatusBar.FormattingDisk=Formatage du disque...
@@ -75,23 +75,23 @@ WorkingBuildsTextBox=Note: Windows 10 1803 et les versions plus récentes sont c
 SelectImgInfoBox.SelectedImageGood=L'image sélectionnée (version: {0}) est valide !
 SelectImgInfoBox.SelectedImageInvalid=Le fichier sélectionné n'est pas une image Windows valide !
 SelectImgInfoBox.SelectedImageUnsupported=Le fichier sélectionné n'est pas supporté !
-MessageBox.NotEnoughSpace=There is not enough space on the disk to install this image!{n}Please choose a larger storage device or a compact image.
+MessageBox.NotEnoughSpace=Il n'y a pas assez d'espace sur ce disque pour installer cette image!{n}Veuillez choisir un disque de stockage plus grand ou une image compacte.
 
 [SelectDriversPage]
 PageTitle=Choix drivers
 SelectDriversLabel=Sélectionner les drivers
 DriversNoteTextBox=Note: Les drivers doivent être au format ZIP.
-LocalDrvPkgRadioBtn=Use a package stored on your computer
-ServerDrvPkgRadioBtn=Use the latest package available on the server
-SelectDrvInfoBox.OK=L'archive est OK !
+LocalDrvPkgRadioBtn=Utilisez un pack enregistré sur votre ordinateur.
+ServerDrvPkgRadioBtn=Utilisez le dernier pack disponible sur le serveur.
+SelectDrvInfoBox.OK=L'archive est valide !
 SelectDrvInfoBox.LicenseNotAccepted=Vous n'avez pas accepté l'un des contrats de licence !
 
 [SelectUEFIPage]
 PageTitle=Firmware UEFI
 SelectUEFILabel=Sélectionner le firmware UEFI
 UEFINoteTextBox=Note: le firmware UEFI doit avoir cette extension de fichier: {0}
-LocalUEFIRadioBtn=Use a firmware stored on your computer
-ServerUEFIRadioBtn=Use the latest firmware available on the server
+LocalUEFIRadioBtn=Utilisez un firmware enregistré sur votre ordinateur.
+ServerUEFIRadioBtn=Utilisez le dernier firmware disponible sur le serveur.
 ServerUEFISourceLabel=Firmware source:
 
 [SetupConfigurationPage]
@@ -111,7 +111,7 @@ PageTitle=Installation
 InstallOverviewLabel=Résumé d'installation
 InstallWarnBox=Attention! Toutes les données de votre appareil seront effacées ! Faites une sauvegarde de vos fichiers avant qu'il ne soit trop tard !
 TargetDeviceLabel=Cible
-DeviceTypeLabel=Device type
+DeviceTypeLabel=Type d'appareil
 OSLabel=Système d'exploitation
 DriversPathLabel=Chemin des drivers
 UEFIPathLabel=Chemin du firmware UEFI
